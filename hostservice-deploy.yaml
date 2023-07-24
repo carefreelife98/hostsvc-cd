@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: csm4903/node-app
+        image: csm4903/node-app:1.0
         resources:
           limits:
             memory: "128Mi"
